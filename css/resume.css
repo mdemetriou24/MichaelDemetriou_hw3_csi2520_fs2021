@@ -22,7 +22,20 @@ header {
     color: white;
   }
   
-  
+  table{
+    text-align: center;
+    display: inline-block;
+    width: fit-content;
+    margin: 5%;
+    border: 2px solid black;
+    padding: 3px;
+    position: center;
+    left: 5%;
+    background-color: silver;
+    color: rgb(0, 102, 102);
+    text-transform: capitalize;
+    cursor: pointer;
+  }
   /* Style the footer */
   footer {
     background-color: #777;
@@ -44,3 +57,25 @@ header {
     border-radius: 12px ; 
     color: teal;
  }
+ a.m:hover{
+    color: red;
+    background-color:black;
+}
+a.e:hover{
+    color: red;
+    background-color:black;
+}
+a.m:hover{
+    color: red;
+    background-color:black;
+}
+footer>a:hover{
+    color: red;
+    background-color:black;
+}
+p:first-letter {
+    font-size : 1em;
+    font-family : "Lucida Handwriting", "Lucida Sans", "Lucida Console", cursive;
+    background-color : teal;
+}
+h3{text-decoration: underline;}
