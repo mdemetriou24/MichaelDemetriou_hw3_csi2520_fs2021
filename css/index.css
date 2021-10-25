@@ -1,0 +1,48 @@
+h1
+{text-align: center;
+    color: rgb(0, 102, 102);
+
+
+}
+
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  h2
+{
+    text-align: center;
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 15 0 0 100px;  
+    padding: 10px;  
+    background: rgb(0, 0, 0);  
+    border-radius: 9px ; 
+    color: rgb(255, 255, 255);
+ }
+  /* Style the footer */
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+
+  a.m
+{
+    text-align: center;
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 120px;  
+    padding: 18px;  
+    background: silver;  
+    border-radius: 12px ; 
+    color: teal;
+ }
