@@ -5,13 +5,15 @@
     <title>Michael Demetriou</title>
     <link rel="shortcut icon" type="image/jpg" href="./img/favicon.jpg"/>
     <link rel="stylesheet" type="text/css" href="css/index.css"/> 
+    <script src="JS/me.js"> </script>
 </head>
 
 <body>
     
     <header>
         <center>
-        <h1>A Website Dedicated to Michael Demetriou and His Portfolio</h1>
+        <h1 id= "me">A Website Dedicated to Michael Demetriou and His Portfolio</h1>
+      
         </center>
         
     </header>
@@ -22,8 +24,15 @@
     <a href="html/my_fun_facts.html" class="m">FACTS PAGE</a>
     <a href="html/Blog.html" class="m">BLOG</a>
     
-    </center>
     <br>
+    <br><br>
+    <button type="button"
+    onclick="document.getElementById('date').innerHTML = Date()">
+    Click me to display Date and Time You viewed My page.</button>
+    <br>
+    <p id="date"></p>
+    </center>
+    
 <br><br>
     <h2>
     <img src="./img/me.jpg" alt="Michael Demetriou"

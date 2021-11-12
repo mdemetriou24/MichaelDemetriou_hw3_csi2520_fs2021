@@ -5,6 +5,7 @@
     <title>Michael Demetriou</title>
     <link rel="shortcut icon" type="image/jpg" href="../img/favicon.jpg"/>>
     <link rel="stylesheet" type="text/css" href="..//css/facts.css"/> 
+    <script src="../JS/facts.js"> </script>
 </head>
 
 <body>
@@ -35,6 +36,8 @@
     0932&targetid=4581046488761455&device=c&mktype=&googleloc=&poi=&campaignid=418640322&mkgroup
     id=1239149842233245&rlsatarget=pla-4581046488761455&abcId=9
     300602&merchantid=51291&msclkid=67e99507dbd01893c9edf4581d4ff496" class="e">CLICK HERE TO BUY</a><br>
+
+    
     <p>I recently purchased this book due to a customer I served at the restaurant. He wrote the book and
          spent the whole time during his dinner telling me all about it. He was very excited therefore 
          I bought it to give it a read! </p>
@@ -42,7 +45,38 @@
 <br>
 <hr>
 <br>
+<center>
+<!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Athens')">Athens</button>
+    <button class="tablinks" onclick="openCity(event, 'Detroit')">Detroit</button>
+    <button class="tablinks" onclick="openCity(event, 'Rome')">Rome</button>
+  </div>
+</center>
+<center>
+  <!-- Tab content -->
+  <div id="Athens" class="tabcontent">
+    <h3>Athens</h3>
+    <p>Athens is the capital city of Greece and where I am from.</p>
+  </div>
+  
+  <div id="Detroit" class="tabcontent">
+    <h3>Detroit</h3>
+    <p>Detroit is my favorite city ive lived in.</p>
+  </div>
+  
+  <div id="Rome" class="tabcontent">
+    <h3>Rome</h3>
+    <p>Rome is my favorite city I have visited.</p>
+    <br>
+    <br>
+</center>
+  </div>
         <center>
+            <p id="demo">Hope You enjoy</p>
+            <br>
+
+<button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
             <h2>My Current Favorite Audio Track</h2>
             <h3>This is Greta Van Fleet, A rock band I recently saw live at Austin CIty Limits</h3>
             <audio controls autoplay loop>
@@ -58,14 +92,26 @@
 <hr>
 <br>
         <center>
-            <h2>My Favorite Movie</h2>
-
+            <h2 id="me">My Favorite Movie</h2>
+            <script>
+                function myFunction() {
+                  document.getElementById("me").style.fontSize = "25px"; 
+                  document.getElementById("me").style.color = "red";
+                  document.getElementById("me").style.backgroundColor = "yellow";        
+                }
+                </script>
+                
+                <button type="button" onclick="myFunction()">Click Me!</button>
+<br>
             
         <iframe width="668" height="367" src="https://www.youtube.com/embed/QWBKEmWWL38" 
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen></iframe>
             </center>
+            <script>
+                window.alert("WARNING! sound may be loud!");
+                </script>
 </body>
 
 <br>

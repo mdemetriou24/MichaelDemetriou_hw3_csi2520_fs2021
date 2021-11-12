@@ -1,55 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <title>Michael Demetriou</title>
-    <link rel="shortcut icon" type="image/jpg" href="../img/favicon.jpg"/>
-    <link rel="stylesheet" type="text/css" href="../css/resume.css"/> 
+    <link rel="shortcut icon" type="image/jpg" href="../img/favicon.jpg" />
+    <link rel="stylesheet" type="text/css" href="../css/blog.css" />
+    <script src="../JS/JScode1.js"> </script>
 </head>
 
 
 <body>
     <header>
         <center>
-        <h1>My Vacation Blog</h1>
+            <h1>My Vacation Blog</h1>
         </center>
     </header>
     <center>
-        
-    <a href="../index.html" class="m">HOME PAGE</a>
-    <a href="../html/my_resume.html" class="m">RESUME PAGE</a>
-    <a href="../html/my_fun_facts.html" class="m">FACTS PAGE</a>
-    <a href="../html/Blog.html" class="m">BLOG</a>
-    
+
+        <a href="../index.html" class="m">HOME PAGE</a>
+        <a href="../html/my_resume.html" class="m">RESUME PAGE</a>
+        <a href="../html/my_fun_facts.html" class="m">FACTS PAGE</a>
+        <a href="../html/Blog.html" class="m">BLOG</a>
+
     </center>
     <br>
     <br>
 
     <center>
-        <iframe width="700" height="415" src="https://www.youtube.com/embed/lepdqiCF-W8" 
-        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+        <iframe width="700" height="415" src="https://www.youtube.com/embed/lepdqiCF-W8" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; 
         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
 
-</center>
-<br>
-<center>
+    </center>
+    <br>
+    <center>
         <p>
-            As a first generation American from Greeece, this is my favorite place to visit! 
-            Although Greece has its major cities with bars, clubs and partying, it has much 
-            much more to offer than that. As you can see in the video ive posted Greece has 
+            As a first generation American from Greeece, this is my favorite place to visit!
+            Although Greece has its major cities with bars, clubs and partying, it has much
+            much more to offer than that. As you can see in the video ive posted Greece has
             every type of climate, from beaches, lakes and rivers
-            to mountains, forests and flatlands. It has thousands of islands all with their 
-            own unique things and along with that Greece has a hisotry unlike no other. 
-            With the mixture of ancient Greece and modern Greece 
+            to mountains, forests and flatlands. It has thousands of islands all with their
+            own unique things and along with that Greece has a hisotry unlike no other.
+            With the mixture of ancient Greece and modern Greece
             seen at almost ever corner you turn it is truely a magnificant land.
 
         </p>
     </center>
-
-
-
-</body>
+    
+    <style>
+        #secondBlock{          
+            color : black;
+            visibility : hidden;
+            width : 500px;
+            height : 50px;  
+        }
+        button{
+            width : 150px;
+            height : 30px;
+            border-radius : 5px;
+            background-color : rgba(0, 0, 0, 0.315);
+            color : rgb(20, 90, 81);
+        }  
+        </style>
+     </head>
+     <br>
+     <br>
+     
+        <form>
+            <button onclick="return addItem()" id="submit" disabled>Leave a Comment</button>
+            <br>
+            <br>
+            <TextArea rows="2" cols="10" id="itemTxt" onkeypress="textTyped()"></TextArea>
+            <br/><br/>
+           
+        </form>
+        <div id="secondBlock">
+           
+        </div>
+     
+        
 
 <br>
 <center>
@@ -58,7 +89,7 @@
         &copy; 2021, Michael Demetriou <br>
         <a href="https://secs.oakland.edu">School of Engineering and Computer Science</a>
         <div>
-        <a href="mailto:mdemetriou@oakland.edu" class="e">Email Michael Demetriou</a>
+            <a href="mailto:mdemetriou@oakland.edu" class="e">Email Michael Demetriou</a>
         </div>
     </footer>
 </center>

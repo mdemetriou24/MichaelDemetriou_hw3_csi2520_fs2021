@@ -78,11 +78,8 @@ footer>a:hover{
     color: red;
     background-color:black;
 }
-p:first-letter {
-    font-size : 1em;
-    font-family : "Lucida Handwriting", "Lucida Sans", "Lucida Console", cursive;
-    background-color : teal;
-}
+
+
 h3{text-decoration: underline;}
 
 
