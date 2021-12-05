@@ -87,10 +87,8 @@ h3{text-decoration: underline;}
 
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 100px;
-  width: 100%;
-
-  }
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
